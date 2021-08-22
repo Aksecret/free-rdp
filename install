@@ -14,7 +14,6 @@ sleep 1
 echo ""
 read -p $'\e[31m[\e[32m*\e[31m]\e[33m Enter The Ngrok Token [Ex. ./ngrok authtoken 1Y7IU ] : \e[0m' token
 $token
-sleep2
 echo
 echo ""
 printf "\e[31m[\e[32m★\e[31m]\e[32m This Tool is only educational purpose and we are not responsible for kind of illegal activity done by this tool\e[m "
@@ -49,8 +48,8 @@ echo ""
 		 if [ $option = 01 ] || [ $option = 1 ]
                  then 
                            
-                           sudo apt install xfce4 xfce4-goodies xrdp
-                           sudo apt install -y tightvncserver
+                           sudo apt install xfce4 xfce4-goodies xrdp -y
+                           sudo apt install -y tightvncserver -y
                            vncserver
 			   echo ""
                            printf "\e[31m[\e[32m★\e[31m]\e[32m This Phishing Page Only Pro User \e[m "
