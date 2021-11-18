@@ -1,11 +1,5 @@
 #!/bin/bash
 echo ""
-clear
-wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.zip --no-check-certificate
-unzip ngrok-stable-linux-amd64.zip
-chmod 7777 ngrok
-clear
-echo ""
 echo -e "\e[31m[\e[32m*\e[31m]\e[33m Visit \e[32mngrok.com \e[m "
 echo ""
 echo -e "\e[31m[\e[32m*\e[31m]\e[33m Sign up & get ngrok authtoken \e[m "
