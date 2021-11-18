@@ -15,6 +15,7 @@ clear
 bash OnlineHacKing/Logo.sh
 bash OnlineHacKing/Logo2.sh
 echo ""
+echo -e "\e[96m================================================================== > > >\e[m "
 echo ""
                  echo -e $''   
                  read -p $'\e[1;91m[\e[0m\e[1;91m *** \e[0m\e[1;96m]\e[0m\e[1;96m  You Want to Linux Desktop Option  \e[1;91m  > : \e[0m' option
