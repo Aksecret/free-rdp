@@ -1,9 +1,7 @@
 #!/bin/bash
 echo ""
 echo
-echo ""
-printf "\e[31m[\e[32m★\e[31m]\e[32m   Provisioning your Google Cloud Shell machine… Since you haven't used your Cloud Shell for a while, it may take some time to unarchive your disk. If you do not want to wait, you can enable ephemeral Cloud Shell.  \e[m "
-echo ""
+clear
 echo ""
 
 
@@ -135,11 +133,9 @@ bash OnlineHacKing/Logo2.sh
 
                            if [[ $option == *'Y'* ]]; then
                            ./CRD_COLAB_EXE.sh
-                           exit
                            fi
                            if [[ $option == *'y'* ]]; then
                            ./CRD_COLAB_EXE.sh
-                           exit
                            fi
 			   echo -e " "
 			   echo " "     
