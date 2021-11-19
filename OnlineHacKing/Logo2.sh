@@ -17,7 +17,7 @@ echo -e ""
       echo -e " \e[1;31m[\e[0m\e[1;92m02\e[0m\e[1;31m] \e[0m\e[1;37;41m Coming Soon \e[0m    " 
       echo -e $' '
       echo -e $' '
-      echo -e "\e[1;31m[\e[0m\e[1;92m99\e[0m\e[1;31m] \e[0m\e[1;33mExit\e[0m\n   "
+      echo -e " \e[1;31m[\e[0m\e[1;92m99\e[0m\e[1;31m] \e[0m\e[1;33mExit\e[0m\n   "
       echo -e $' ' 
       echo -e $'\e[1;33m================================================================== > > >\e[0m '
       echo -e $' ' 
