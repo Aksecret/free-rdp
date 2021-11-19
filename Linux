@@ -63,11 +63,11 @@ echo ""
                            vncserver
                            exit
                            fi
-			   echo -e "\e[1;96m========================================================= > > >\e[m "
+			   echo -e " "
 			   echo " "     
 			   printf "\e[1;31m[\e[0m\e[1;92m02\e[0m\e[1;31m] \e[0m\e[1;37;41m Install Ngrok Latest Version \e[0m   "  
 			   echo " "
-			   echo -e "\e[1;96m========================================================= > > >\e[m "
+			   echo -e " "
 			   echo ""
 			   wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.zip --no-check-certificate
 			   unzip ngrok-stable-linux-amd64.zip
