@@ -56,7 +56,6 @@ bash OnlineHacKing/Logo2.sh
 			   echo ""
 			   read -p $'\e[31m[\e[32m*\e[31m]\e[33m Enter The Ngrok Token [Ex. ./ngrok authtoken 1Y7IU ] : \e[0m' token
 			   $token
-			   sleep1
 			   echo
 			   ./ngrok tcp 8080
 			   echo ""			   
@@ -97,7 +96,6 @@ bash OnlineHacKing/Logo2.sh
                            echo""
                            echo""
                            echo""
-			   sleep5
 
                            if [[ $option == *'Y'* ]]; then
                            docker run -p 6079:80 dorowu/ubuntu-desktop-lxde-vnc
@@ -110,7 +108,6 @@ bash OnlineHacKing/Logo2.sh
 			   echo -e " "
 			   echo " "     
 			   echo ""
-			   sleep1
 			   echo
 			   echo ""			   
                            read -p $'\e[1;40m\e[31m[\e[32m*\e[31m]\e[32m Stop Server \e[1;91m (Y/N) : \e[0m' option
@@ -136,7 +133,6 @@ bash OnlineHacKing/Logo2.sh
                            echo""
                            echo""
                            echo""
-			   sleep3
 
                            if [[ $option == *'Y'* ]]; then
                            ./CRD_COLAB_EXE.sh
@@ -149,7 +145,6 @@ bash OnlineHacKing/Logo2.sh
 			   echo -e " "
 			   echo " "     
 			   echo ""
-			   sleep1
 			   echo
 			   echo ""			   
                            read -p $'\e[1;40m\e[31m[\e[32m*\e[31m]\e[32m Stop Server \e[1;91m (Y/N) : \e[0m' option
