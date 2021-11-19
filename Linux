@@ -97,23 +97,21 @@ bash OnlineHacKing/Logo.sh
                            echo""
                            echo""
                            echo""
+			   sleep5
 
                            if [[ $option == *'Y'* ]]; then
-                           vncserver
+                           docker run -p 6079:80 dorowu/ubuntu-desktop-lxde-vnc
                            exit
                            fi
                            if [[ $option == *'Y'* ]]; then
-                           vncserver
+                           docker run -p 6079:80 dorowu/ubuntu-desktop-lxde-vnc
                            exit
                            fi
 			   echo -e " "
 			   echo " "     
 			   echo ""
-			   read -p $'\e[31m[\e[32m*\e[31m]\e[33m Enter The Ngrok Token [Ex. ./ngrok authtoken 1Y7IU ] : \e[0m' token
-			   $token
 			   sleep1
 			   echo
-			   docker run -p 6079:80 dorowu/ubuntu-desktop-lxde-vnc
 			   echo ""			   
                            read -p $'\e[1;40m\e[31m[\e[32m*\e[31m]\e[32m Stop Server \e[1;91m (Y/N) : \e[0m' option
                            echo""
@@ -138,23 +136,21 @@ bash OnlineHacKing/Logo.sh
                            echo""
                            echo""
                            echo""
+			   sleep3
 
                            if [[ $option == *'Y'* ]]; then
-                           vncserver
+                           ./CRD_COLAB_EXE.sh
                            exit
                            fi
                            if [[ $option == *'Y'* ]]; then
-                           vncserver
+                           ./CRD_COLAB_EXE.sh
                            exit
                            fi
 			   echo -e " "
 			   echo " "     
 			   echo ""
-			   read -p $'\e[31m[\e[32m*\e[31m]\e[33m Enter The Ngrok Token [Ex. ./ngrok authtoken 1Y7IU ] : \e[0m' token
-			   $token
 			   sleep1
 			   echo
-			   ./CRD_COLAB_EXE.sh
 			   echo ""			   
                            read -p $'\e[1;40m\e[31m[\e[32m*\e[31m]\e[32m Stop Server \e[1;91m (Y/N) : \e[0m' option
                            echo""
