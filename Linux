@@ -38,7 +38,7 @@ bash OnlineHacKing/Logo2.sh
                            if [[ $option == *'Y'* ]]; then
                            vncserver
                            fi
-                           if [[ $option == *'Y'* ]]; then
+                           if [[ $option == *'y'* ]]; then
                            vncserver
                            fi
 			   echo -e " "
@@ -96,7 +96,7 @@ bash OnlineHacKing/Logo2.sh
                            if [[ $option == *'Y'* ]]; then
                            docker run -p 6079:80 dorowu/ubuntu-desktop-lxde-vnc
                            fi
-                           if [[ $option == *'Y'* ]]; then
+                           if [[ $option == *'y'* ]]; then
                            docker run -p 6079:80 dorowu/ubuntu-desktop-lxde-vnc
                            fi
 			   echo -e " "
@@ -110,7 +110,7 @@ bash OnlineHacKing/Logo2.sh
 			   if [[ $option == *'Y'* ]]; then
                            exit
                            fi
-                           if [[ $option == *'Y'* ]]; then
+                           if [[ $option == *'y'* ]]; then
                            exit
                            fi
                            
@@ -137,7 +137,7 @@ bash OnlineHacKing/Logo2.sh
                            ./CRD_COLAB_EXE.sh
                            exit
                            fi
-                           if [[ $option == *'Y'* ]]; then
+                           if [[ $option == *'y'* ]]; then
                            ./CRD_COLAB_EXE.sh
                            exit
                            fi
@@ -157,7 +157,7 @@ bash OnlineHacKing/Logo2.sh
                            vncserver -kill :2
                            exit
                            fi
-                           if [[ $option == *'Y'* ]]; then
+                           if [[ $option == *'y'* ]]; then
                            clear
                            vncserver -kill :1
                            vncserver -kill :2
