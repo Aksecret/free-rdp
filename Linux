@@ -34,7 +34,6 @@ printf "\e[1;31m\e[0m\e[1;92m\e[0m\e[1;31m \e[0m\e[1;37;44m\e[0m"
 echo
 printf "\e[1;31m[\e[0m\e[1;92m99\e[0m\e[1;31m] \e[0m\e[1;33mExit\e[0m\n"
 echo ""
-echo -e "\e[96m================================================================== > > >\e[m "
 echo ""
                  echo -e $''   
                  read -p $'\e[1;91m[\e[0m\e[1;91m *** \e[0m\e[1;96m]\e[0m\e[1;96m  You Want to Linux Desktop Option  \e[1;91m  > : \e[0m' option
