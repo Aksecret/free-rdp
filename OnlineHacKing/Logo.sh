@@ -22,9 +22,6 @@ echo -e "\e[33m
   echo ""
    echo -e $'\e[1;33m\e[0m\e[1;33m  [\e[0m\e[1;32m Follow Github : \e[36mhttps://github.com/OnlineHacKing/Cloud_Desktop \e[0m \e[1;32m\e[0m\e[1;33m]\e[0m'
    echo ""
-      echo -e $'\e[1;37m\e[0m\e[1;37m    +-+-+-+-+-+ >>\e[0m'
-      echo -e "\e[95m    |S|U|M|A|N|"      
-      echo -e $'\e[1;37m\e[0m\e[1;37m    +-+-+-+-+-+ >>\e[0m' 
       echo ""                                                
       }
        banner
