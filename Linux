@@ -41,13 +41,15 @@ echo ""
 		 if [ $option = 01 ] || [ $option = 1 ]
                  then 
                            
-                           sudo apt install xfce4 xfce4-goodies xrdp -y
-                           sudo apt install -y tightvncserver -y
-                           vncserver
+                           
 			   echo ""
-                           printf "\e[31m[\e[32m★\e[31m]\e[32m This Phishing Page Only Pro User \e[m "
+                           printf "\e[31m[\e[32m★\e[31m]\e[32m This Cloud Desktop VNC Server RDP \e[m "
                            echo ""
+			   sudo apt install xfce4 xfce4-goodies xrdp -y
+                           sudo apt install -y tightvncserver -y
                            echo ""
+			   printf "\e[31m[\e[32m★\e[31m]\e[32m This Cloud Server is Ready \e[m "
+			   echo ""
                            read -p $'\e[1;40m\e[31m[\e[32m*\e[31m]\e[32m Start VNC Server \e[1;91m (Y/N) : \e[0m' option
                            echo""
                            echo""
@@ -61,63 +63,23 @@ echo ""
                            vncserver
                            exit
                            fi
+			   echo -e "\e[1;96m========================================================= > > >\e[m "
+			   echo " "     
+			   printf "\e[1;31m[\e[0m\e[1;92m02\e[0m\e[1;31m] \e[0m\e[1;37;41m Install Ngrok Latest Version \e[0m   "  
+			   echo " "
+			   echo -e "\e[1;96m========================================================= > > >\e[m "
 			   echo ""
-                           echo -e $" [\e[92m*\e[91m]\e[1;93m Setting up Online Hacking PUBG BGMI ID Hack Tool ... \e[0m  "
-			   sleep 2
+			   wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.zip --no-check-certificate
+			   unzip ngrok-stable-linux-amd64.zip
+			   rm -rf unzip ngrok-stable-linux-amd64.zip
+                           echo ""
 			   echo ""
-			   echo -e $" [\e[92m*\e[91m]\e[1;93m TURN ON MOBILE DATA & HOTSPOT OTHERWISE IT WILL NOT WORK ! \e[0m  "
-			   sleep 2
-			   echo ""
-			   echo -e $" [\e[1;92m*\e[1;91m]\e[1;93m Online Hacking PUBG BGMI Phishing Server Connect... \e[0m   "
-			   sleep 2
-			   echo ""
-			   echo -e $" [\e[92m*\e[91m]\e[1;93m PHP SERVER NOW STARTING ... \e[0m  "
-                           echo ""
-                           sleep 3
-			   echo ""
-			   echo -e $" [\e[92m*\e[91m]\e[1;93m NGROK SERVER NOW STARTING ... \e[0m  "
-                           php -S 127.0.0.1:4444 > /dev/null 2>&1 &
-                           sleep 25
-                           clear
-                           echo ""
-                           link=$(curl -s -N http://127.0.0.1:4040/api/tunnels | grep -o "[0-9a-z]*\.ngrok.io")
-                           echo ""
-                           echo ""
-                           echo ""
-echo -e "\e[92m
-SUMAN ©\e[34m
-         ██████╗ ███╗   ██╗██╗     ██╗███╗   ██╗███████╗    
-        ██╔═══██╗████╗  ██║██║     ██║████╗  ██║██╔════╝    
-        ██║   ██║██╔██╗ ██║██║     ██║██╔██╗ ██║█████╗      
-        ██║   ██║██║╚██╗██║██║     ██║██║╚██╗██║██╔══╝      
-        ╚██████╔╝██║ ╚████║███████╗██║██║ ╚████║███████╗    
-         ╚═════╝ ╚═╝  ╚═══╝╚══════╝╚═╝╚═╝  ╚═══╝╚══════╝    
-                                                            
-    ██╗  ██╗ █████╗  ██████╗██╗  ██╗██╗███╗   ██╗ ██████╗   
-    ██║  ██║██╔══██╗██╔════╝██║ ██╔╝██║████╗  ██║██╔════╝   
-    ███████║███████║██║     █████╔╝ ██║██╔██╗ ██║██║  ███╗  
-    ██╔══██║██╔══██║██║     ██╔═██╗ ██║██║╚██╗██║██║   ██║  
-    ██║  ██║██║  ██║╚██████╗██║  ██╗██║██║ ╚████║╚██████╔╝  
-    ╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝╚═╝  ╚═╝╚═╝╚═╝  ╚═══╝ ╚═════╝   
-ONLINE HACKING			  
-							  							  
-          \e[m"
-echo -e " \e[36mWebsite : \e[0m\e[92mwww.onlinehacking.xyz \e[0m\n"
-  
-echo -e " \e[31mGitHub : \e[0m\e[93mhttps://github.com/OnlineHacKing \e[0m\n"
-
-echo -e " \e[97mTelegram : \e[0m\e[34mhttps://telegram.dog/OnlineHacKing \e[0m\n"
-		           echo ""
-                           echo -e "\e[96m========================\e[92m VICTIM INFORMATION \e[96m========================= \e[93m"  
-			   echo ""
-			   echo -e "\e[96m========================\e[92m    SUMAN © 2021    \e[96m=========================\e[92m"
-                           echo ""
-                           echo ""
-                           echo "" 
-                           read -p $'\e[1;40m\e[96m DO YOU WANT TO MODIFY URL ?\e[1;91m (Y/N) : \e[0m' option
-                           echo ""
-			   ./ngrok tcp 5901
-                           echo ""
+			   read -p $'\e[31m[\e[32m*\e[31m]\e[33m Enter The Ngrok Token [Ex. ./ngrok authtoken 1Y7IU ] : \e[0m' token
+			   $token
+			   sleep1
+			   echo
+			   ./ngrok tcp 4444
+			   echo ""			   
                            read -p $'\e[1;40m\e[31m[\e[32m*\e[31m]\e[32m Stop Server \e[1;91m (Y/N) : \e[0m' option
                            echo""
                            echo""
