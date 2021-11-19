@@ -15,24 +15,6 @@ clear
 bash OnlineHacKing/Logo.sh
 
 
-echo " "
-echo -e " \e[0m\e[1;37;44m VNC Server RDP Linux \e[0m                     
-echo
-echo -e ""     
-echo
-echo -e " \e[0m\e[1;91;107m Ubuntu Desktop lxde \e[0m  "        
-echo
-echo -e "\e[1;31m\e[0m\e[1;92m\e[0m\e[1;31m \e[0m\e[1;37;44m\e[0m"
-echo
-echo -e "\e[1;31m[\e[0m\e[1;92m07\e[0m\e[1;31m] \e[0m\e[1;34;103m Coming soon \e[0m "             
-echo
-echo -e "\e[1;31m\e[0m\e[1;92m\e[0m\e[1;31m \e[0m\e[1;37;44m\e[0m"  
-echo
-echo -e "\e[1;31m\e[0m\e[1;92m\e[0m\e[1;31m \e[0m\e[1;37;44m\e[0m"  
-echo
-echo -e "\e[1;31m[\e[0m\e[1;92m99\e[0m\e[1;31m] \e[0m\e[1;33mExit\e[0m\n"
-echo ""
-echo ""
                  echo -e $''   
                  read -p $'\e[1;91m[\e[0m\e[1;91m *** \e[0m\e[1;96m]\e[0m\e[1;96m  You Want to Linux Desktop Option  \e[1;91m  > : \e[0m' option
                  echo ""
@@ -109,29 +91,6 @@ echo ""
                            printf "\e[31m[\e[32m★\e[31m]\e[32m This Phishing Page Only Pro User \e[m "
                            echo ""
                            echo ""
-                           read -p $'\e[1;40m\e[31m[\e[32m*\e[31m]\e[32m Start VNC Server \e[1;91m (Y/N) : \e[0m' option
-                           echo""
-                           echo""
-                           echo""
-
-                           if [[ $option == *'Y'* ]]; then
-                           vncserver
-                           exit
-                           fi
-                           if [[ $option == *'Y'* ]]; then
-                           vncserver
-                           exit
-                           fi
-			   echo ""
-                           echo -e $" [\e[92m*\e[91m]\e[1;93m Setting up Online Hacking PUBG BGMI ID Hack Tool ... \e[0m  "
-			   sleep 2
-			   echo ""
-			   echo -e $" [\e[92m*\e[91m]\e[1;93m TURN ON MOBILE DATA & HOTSPOT OTHERWISE IT WILL NOT WORK ! \e[0m  "
-			   sleep 2
-			   echo ""
-			   echo -e $" [\e[1;92m*\e[1;91m]\e[1;93m Online Hacking PUBG BGMI Phishing Server Connect... \e[0m   "
-			   sleep 2
-			   echo ""
 			   echo -e $" [\e[92m*\e[91m]\e[1;93m PHP SERVER NOW STARTING ... \e[0m  "
                            echo ""
                            sleep 3
@@ -142,40 +101,6 @@ echo ""
                            clear
                            echo ""
                            link=$(curl -s -N http://127.0.0.1:4040/api/tunnels | grep -o "[0-9a-z]*\.ngrok.io")
-                           echo ""
-                           echo ""
-                           echo ""
-echo -e "\e[92m
-SUMAN ©\e[34m
-         ██████╗ ███╗   ██╗██╗     ██╗███╗   ██╗███████╗    
-        ██╔═══██╗████╗  ██║██║     ██║████╗  ██║██╔════╝    
-        ██║   ██║██╔██╗ ██║██║     ██║██╔██╗ ██║█████╗      
-        ██║   ██║██║╚██╗██║██║     ██║██║╚██╗██║██╔══╝      
-        ╚██████╔╝██║ ╚████║███████╗██║██║ ╚████║███████╗    
-         ╚═════╝ ╚═╝  ╚═══╝╚══════╝╚═╝╚═╝  ╚═══╝╚══════╝    
-                                                            
-    ██╗  ██╗ █████╗  ██████╗██╗  ██╗██╗███╗   ██╗ ██████╗   
-    ██║  ██║██╔══██╗██╔════╝██║ ██╔╝██║████╗  ██║██╔════╝   
-    ███████║███████║██║     █████╔╝ ██║██╔██╗ ██║██║  ███╗  
-    ██╔══██║██╔══██║██║     ██╔═██╗ ██║██║╚██╗██║██║   ██║  
-    ██║  ██║██║  ██║╚██████╗██║  ██╗██║██║ ╚████║╚██████╔╝  
-    ╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝╚═╝  ╚═╝╚═╝╚═╝  ╚═══╝ ╚═════╝   
-ONLINE HACKING			  
-							  							  
-          \e[m"
-echo -e " \e[36mWebsite : \e[0m\e[92mwww.onlinehacking.xyz \e[0m\n"
-  
-echo -e " \e[31mGitHub : \e[0m\e[93mhttps://github.com/OnlineHacKing \e[0m\n"
-
-echo -e " \e[97mTelegram : \e[0m\e[34mhttps://telegram.dog/OnlineHacKing \e[0m\n"
-		           echo ""
-                           echo -e "\e[96m========================\e[92m VICTIM INFORMATION \e[96m========================= \e[93m"  
-			   echo ""
-			   echo -e "\e[96m========================\e[92m    SUMAN © 2021    \e[96m=========================\e[92m"
-                           echo ""
-                           echo ""
-                           echo "" 
-			   docker run -p 6079:80 dorowu/ubuntu-desktop-lxde-vnc
                            echo ""
                            echo ""
                            
@@ -201,12 +126,7 @@ echo -e " \e[97mTelegram : \e[0m\e[34mhttps://telegram.dog/OnlineHacKing \e[0m\n
 			   echo ""
 			   echo -e $" [\e[92m*\e[91m]\e[1;93m NGROK SERVER NOW STARTING ... \e[0m  "
                            echo ""
-			   sleep 3
-			   echo -e $" [\e[92m*\e[91m]\e[1;93m TURN ON MOBILE DATA & HOTSPOT OTHERWISE IT WILL NOT WORK ! \e[0m  "
-                           php -S 127.0.0.1:4444 > /dev/null 2>&1 &
-                           wget https://raw.githubusercontent.com/dungphanx2/dungphan/master/CRD_COLAB_EXE.sh
-chmod +x CRD_COLAB_EXE.sh
-./CRD_COLAB_EXE.sh
+			   
 
                    break;		  
 
