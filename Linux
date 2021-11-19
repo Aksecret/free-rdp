@@ -13,17 +13,8 @@ kill -9 $php
 kill -9 $ngrok
 clear
 bash OnlineHacKing/Logo.sh
+bash OnlineHacKing/Logo2.sh
 
-echo "\e[1;31m[\e[0m\e[1;92m01\e[0m\e[1;31m] \e[0m\e[1;37;44m VNC Server RDP Linux \e[0m                     
-echo
-echo "\e[1;31m\e[0m\e[1;92m\e[0m\e[1;31m \e[0m\e[1;37;44m\e[0m"     
-echo
-echo "\e[1;31m[\e[0m\e[1;92m06\e[0m\e[1;31m] \e[0m\e[1;91;107m Ubuntu Desktop lxde \e[0m  "        
-echo
-echo "\e[1;31m\e[0m\e[1;92m\e[0m\e[1;31m \e[0m\e[1;37;44m\e[0m"
-echo
-echo "\e[1;31m[\e[0m\e[1;92m07\e[0m\e[1;31m] \e[0m\e[1;34;103m Coming soon \e[0m "             
-echo
                  echo -e $''   
                  read -p $'\e[1;91m[\e[0m\e[1;91m *** \e[0m\e[1;96m]\e[0m\e[1;96m  You Want to Linux Desktop Option  \e[1;91m  > : \e[0m' option
                  echo ""
