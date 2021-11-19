@@ -37,11 +37,9 @@ bash OnlineHacKing/Logo2.sh
 
                            if [[ $option == *'Y'* ]]; then
                            vncserver
-                           exit
                            fi
                            if [[ $option == *'Y'* ]]; then
                            vncserver
-                           exit
                            fi
 			   echo -e " "
 			   echo " "     
@@ -68,13 +66,11 @@ bash OnlineHacKing/Logo2.sh
                            clear
                            vncserver -kill :1
                            vncserver -kill :2
-                           exit
                            fi
                            if [[ $option == *'Y'* ]]; then
                            clear
                            vncserver -kill :1
                            vncserver -kill :2
-                           exit
                            fi                           
 
 
@@ -99,11 +95,9 @@ bash OnlineHacKing/Logo2.sh
 
                            if [[ $option == *'Y'* ]]; then
                            docker run -p 6079:80 dorowu/ubuntu-desktop-lxde-vnc
-                           exit
                            fi
                            if [[ $option == *'Y'* ]]; then
                            docker run -p 6079:80 dorowu/ubuntu-desktop-lxde-vnc
-                           exit
                            fi
 			   echo -e " "
 			   echo " "     
@@ -113,7 +107,12 @@ bash OnlineHacKing/Logo2.sh
                            read -p $'\e[1;40m\e[31m[\e[32m*\e[31m]\e[32m Stop Server \e[1;91m (Y/N) : \e[0m' option
                            echo""
                            echo""
-                           echo""
+			   if [[ $option == *'Y'* ]]; then
+                           exit
+                           fi
+                           if [[ $option == *'Y'* ]]; then
+                           exit
+                           fi
                            
 
 
