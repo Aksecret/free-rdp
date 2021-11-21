@@ -31,6 +31,8 @@ bash OnlineHacKing/Logo2.sh
 			   echo " "
 			   echo ""
 			   echo ""
+			   cp vnc.py $HOME
+			   cd $HOME
 			   python vnc.py
                            echo ""
 			   echo " \e[92m Click thsi Linux :- https://remotedesktop.google.com/headless \e[0m " 
