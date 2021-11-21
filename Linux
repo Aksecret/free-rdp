@@ -50,33 +50,7 @@ bash OnlineHacKing/Logo2.sh
 			   echo " "
                            read -p $'\e[1;40m\e[31m[\e[32m*\e[31m]\e[32m Start VNC Server \e[1;91m (Y/N) : \e[0m' option
                            echo""
-                           echo""
-                           echo""
-
-                           if [[ $option == *'Y'* ]]; then
-                           fi
-                           if [[ $option == *'y'* ]]; then
-
-                           fi
-			   echo -e " "
-			   echo " "     
-			   echo
-			   echo ""			   
-                           read -p $'\e[1;40m\e[31m[\e[32m*\e[31m]\e[32m Stop Server \e[1;91m (Y/N) : \e[0m' option
-                           echo""
-                           echo""
-                           echo""
-
-                           if [[ $option == *'y'* ]]; then
-                           clear
-                           vncserver -kill :1
-                           vncserver -kill :2
-                           fi
-                           if [[ $option == *'Y'* ]]; then
-                           clear
-                           vncserver -kill :1
-                           vncserver -kill :2
-                           fi                           
+			   exit
 
 
 
