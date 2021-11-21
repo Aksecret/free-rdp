@@ -33,13 +33,17 @@ bash OnlineHacKing/Logo2.sh
 			   echo ""
 			   python vnc.py
                            echo ""
-			   echo " \e[1;31m[\e[0m\e[1;92m01\e[0m\e[1;31m] \e[0m\e[1;37;41m Click thsi Linux :- https://remotedesktop.google.com/headless \e[0m " 
+			   echo " \e[92m Click thsi Linux :- https://remotedesktop.google.com/headless \e[0m " 
 			   echo ""
-			   echo " \e[1;31m[\e[0m\e[1;92m01\e[0m\e[1;31m] \e[0m\e[1;37;41m Click Begin , Click Before , Click Authorize \e[0m " 
+			   echo " \e[92m Click Begin , Click Before , Click Authorize \e[0m " 
 			   echo ""
-			   echo " \e[1;31m[\e[0m\e[1;92m01\e[0m\e[1;31m] \e[0m\e[1;37;41m copy "Debian Linux" and paste on terminal/shell google console \e[0m " 
+			   echo " \e[92m copy "Debian Linux" and paste on terminal/shell google console \e[0m " 
 			   echo ""
-			   echo " \e[1;31m[\e[0m\e[1;92m01\e[0m\e[1;31m] \e[0m\e[1;37;41m Click thsi Linux :- https://remotedesktop.google.com/access \e[0m " 
+			   echo ""
+			   read -p $'\e[31m[\e[32m*\e[31m]\e[33m Enter The Debian Linux Code : \e[0m' token
+			   $token
+			   echo ""
+			   echo " \e[92m Click thsi Linux :- https://remotedesktop.google.com/access \e[0m " 
 			   echo ""
 			   echo ""
 			   echo " "
@@ -50,10 +54,9 @@ bash OnlineHacKing/Logo2.sh
                            echo""
 
                            if [[ $option == *'Y'* ]]; then
-                           vncserver
                            fi
                            if [[ $option == *'y'* ]]; then
-                           vncserver
+
                            fi
 			   echo -e " "
 			   echo " "     
