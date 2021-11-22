@@ -23,6 +23,8 @@ bash OnlineHacKing/Logo2.sh
 			   echo ""
                            printf "\e[31m[\e[32m★\e[31m]\e[32m This Cloud Desktop VNC Server RDP \e[m "
                            echo ""
+			   sudo su
+			   apt update -y && apt upgrade -y
 			   sudo apt-get install python
 			   wget https://dl.google.com/linux/direct/chrome-remote-desktop_current_amd64.deb
                            cd Cloud/vnc-google-shell/
