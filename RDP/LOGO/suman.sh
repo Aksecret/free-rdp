@@ -1,3 +1,4 @@
+#!/bin/bash
 echo ""
 echo -e "\e[92m
 SUMAN ©\e[34m
