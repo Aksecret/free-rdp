@@ -1,7 +1,7 @@
 #!/bin/bash
 echo ""
 echo -e "\e[92m
-SUMAN ©\e[95m
+SUMAN ©\e[93m
          ██████╗ ███╗   ██╗██╗     ██╗███╗   ██╗███████╗    
         ██╔═══██╗████╗  ██║██║     ██║████╗  ██║██╔════╝    
         ██║   ██║██╔██╗ ██║██║     ██║██╔██╗ ██║█████╗      
@@ -17,11 +17,11 @@ SUMAN ©\e[95m
     ╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝╚═╝  ╚═╝╚═╝╚═╝  ╚═══╝ ╚═════╝   			  
 							  							  
           \e[0m"
-echo -e " \e[36mWebsite : \e[0m\e[92mwww.onlinehacking.xyz \e[0m\n"
+echo -e " \e[36mWebsite : \e[0m\e[92mhttps://www.onlinehacking.xyz \e[0m\n"
   
 echo -e " \e[31mGitHub : \e[0m\e[93mhttps://github.com/OnlineHacKing \e[0m\n"
 
-echo -e " \e[97mTelegram : \e[0m\e[34mhttps://telegram.dog/OnlineHacKing \e[0m\n"
+echo -e " \e[97mTelegram : \e[0m\e[96mhttps://telegram.dog/OnlineHacKing \e[0m\n"
 		           echo ""
                            echo -e "\e[96m========================\e[92m VICTIM INFORMATION \e[96m========================= \e[93m"  
 			   echo ""
