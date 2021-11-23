@@ -26,7 +26,7 @@ read -p $' \e[1;40m\e[31m[\e[32m*\e[31m]\e[32m Enter License Active Key : \e[0m'
 echo""
 echo""
 echo""
-if [[ $option == *'1234'* ]]; then
+if [[ $option == *'SUMANFJBNQ1WX10'* ]]; then
 clear
 echo ""
 echo ""
