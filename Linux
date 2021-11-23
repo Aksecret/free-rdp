@@ -42,8 +42,9 @@ bash OnlineHacKing/Logo2.sh
 			   echo " \e[92m copy "Debian Linux" and paste on terminal/shell google console \e[0m " 
 			   echo ""
 			   echo ""
-			   read -p $'\e[31m[\e[32m*\e[31m]\e[33m Enter The Debian Linux Code : \e[0m' token
-			   $token
+			   printf "\n$yellow Enter your Ngrok Authtoken to continue [Ex. ngrok authtoken I7QUQ ] : $nc"
+                           read ngrok_authtoken
+                           $ngrok_authtoken > /dev/null 2&>1
 			   echo ""
 			   echo " \e[92m Click thsi Linux :- https://remotedesktop.google.com/access \e[0m " 
 			   echo ""
