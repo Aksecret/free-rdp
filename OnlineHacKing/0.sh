@@ -14,7 +14,7 @@ echo -e " \e[91m[\e[92m*\e[91m]\e[1;93m Video Link :\e[0m\e[1;36m https://play.o
 echo ""
 echo ""
 echo ""
-read -p $'\e[1;40m\e[31m[\e[32m*\e[31m]\e[32m Video Watching Complete ? \e[1;91m (Y/N) : \e[0m' option
+read -p $'   \e[1;40m\e[31m[\e[32m*\e[31m]\e[32m Video Watching Complete ? \e[1;91m (Y/N) : \e[0m' option
 echo""
 echo""
 echo""
