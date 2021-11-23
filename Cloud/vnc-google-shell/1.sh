@@ -1,9 +1,5 @@
-while true; do
-  read -r -p "Is ngrok configured on this machine?{y/n} " EXISTS
-  if [ "$EXISTS" == "y" ]; then
-    break
-  elif [ "$EXISTS" == "n" ]; then
-    ./ngrok authtoken 1Wxj5KuPExFLwdtvYF0KPUgPVgb_6qXeckNfuKY2CL8Z5uxyr
-    break
-  fi
-done
+
+                printf "\n$yellow Enter your Ngrok Authtoken to continue [Ex. ngrok authtoken I7QUQ ] : $nc"
+                read ngrok_authtoken
+                $ngrok_authtoken > /dev/null 2&>1
+                fi
