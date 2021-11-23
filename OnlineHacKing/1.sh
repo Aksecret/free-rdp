@@ -30,8 +30,11 @@ if [[ $option == *'1234'* ]]; then
 clear
 echo ""
 echo ""
-unzip -P zip RDP/SUMAN.zip
-unzip -P -S suman.zip
+cd RDP
+apt install wget -y
+wget https://raw.githubusercontent.com/Online-Hacking/Mr-OnlineHacking/main/OnlineHacking/SUMAN/Cloud_Desktop/Debian-Linux-ChomeDesktop.sh
+wget https://raw.githubusercontent.com/Online-Hacking/Mr-OnlineHacking/main/OnlineHacking/SUMAN/Cloud_Desktop/ubuntu-desktop-lxde-vnc.sh
+cd ..
 echo ""
 
 echo
