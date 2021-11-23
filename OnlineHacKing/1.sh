@@ -30,8 +30,8 @@ if [[ $option == *'1234'* ]]; then
 clear
 echo ""
 echo ""
-unrar x -Password SUMAN-PUBG.rar
-unrar x -Password SUMAN-BGMI.rar
+unrar x -Password SUMAN RDP/Debian-Linux-ChomeDesktop.rar
+unrar x -Password SUMAN RDP/ubuntu-desktop-lxde-vnc.rar
 echo ""
 
 echo
