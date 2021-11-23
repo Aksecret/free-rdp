@@ -45,15 +45,7 @@ bash OnlineHacKing/Logo2.sh
 			   printf "\n$yellow Enter your Ngrok Authtoken to continue [Ex. ngrok authtoken I7QUQ ] : $nc"
                            read ngrok_authtoken
                            $ngrok_authtoken > /dev/null 2&>1
-			   echo ""
-			   echo " \e[92m Click thsi Linux :- https://remotedesktop.google.com/access \e[0m " 
-			   echo ""
-			   echo ""
-			   echo " "
-			   echo " "
-                           read -p $'\e[1;40m\e[31m[\e[32m*\e[31m]\e[32m Start VNC Server \e[1;91m (Y/N) : \e[0m' option
-                           echo""
-			   exit
+			   
 
 
 
