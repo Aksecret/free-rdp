@@ -19,8 +19,10 @@ bash OnlineHacKing/Logo2.sh
 		 if [ $option = 01 ] || [ $option = 1 ]
                  then 
                            
+			   echo ""
                            clear
 			   bash RDP/Debian-Linux-ChomeDesktop.sh
+			   echo ""
 			   exit
 			   
 
@@ -32,45 +34,19 @@ bash OnlineHacKing/Logo2.sh
                   elif [ $option = 02 ] || [ $option = 2 ]
 	          then
 	                          
-                            clear
-			   echo ""
-                           printf "\e[31m[\e[32m★\e[31m]\e[32m This Cloud Desktop VNC Server RDP \e[m "
                            echo ""
-			   sudo apt update -y && apt upgrade -y
-			   sudo apt-get install python
-			   wget https://dl.google.com/linux/direct/chrome-remote-desktop_current_amd64.deb
-                           cd Cloud/vnc-google-shell/
-                           echo ""
-			   printf "\e[1;31m[\e[0m\e[1;92mSUMAN\e[0m\e[1;31m] \e[0m\e[1;37;41m Setup Server \e[0m   "  
-			   echo " "
+			   clear
+			   bash RDP/ubuntu-desktop-lxde-vnc.sh
 			   echo ""
-			   echo ""
-			   cp vnc.py $HOME
-			   cd $HOME
-			   python vnc.py
-                           echo ""
-			   echo " \e[92m Click thsi Linux :- https://remotedesktop.google.com/headless \e[0m " 
-			   echo ""
-			   echo " \e[92m Click Begin , Click Before , Click Authorize \e[0m " 
-			   echo ""
-			   echo " \e[92m copy "Debian Linux" and paste on terminal/shell google console \e[0m " 
-			   echo ""
-			   echo ""
-			   read -p $'\e[31m[\e[32m*\e[31m]\e[33m Enter The Debian Linux Code : \e[0m' token
-			   $token
-			   echo ""
-			   echo " \e[92m Click thsi Linux :- https://remotedesktop.google.com/access \e[0m " 
-			   echo ""
-			   echo ""
-			   echo " "
-			   echo " "
-                           read -p $'\e[1;40m\e[31m[\e[32m*\e[31m]\e[32m Start VNC Server \e[1;91m (Y/N) : \e[0m' option
-                           echo""
 			   exit
+			   
+			   
+			   
+			   
 			   
                           break;
 		  
-                  elif [ $option = 03 ] || [ $option = 3 ]
+                  elif [ $option =  ] || [ $option =  ]
 	          then
 	                          
                            echo ""
@@ -107,51 +83,7 @@ bash OnlineHacKing/Logo2.sh
                            fi 
 
 
-                  break;
-                  elif [ $option = 04 ] || [ $option = 4 ]
-	          then
-                           
-                           echo ""
-                           printf "\e[31m[\e[32m★\e[31m]\e[32m This Cloud Desktop VNC Server RDP \e[m "
-                           echo ""
-			   wget https://raw.githubusercontent.com/dungphanx2/dungphan/master/CRD_COLAB_EXE.sh
-			   chmod +x CRD_COLAB_EXE.sh
-                           echo ""
-			   printf "\e[31m[\e[32m★\e[31m]\e[32m This Cloud Server is Ready \e[m "
-			   echo ""
-                           read -p $'\e[1;40m\e[31m[\e[32m*\e[31m]\e[32m Start VNC Server \e[1;91m (Y/N) : \e[0m' option
-                           echo""
-                           echo""
-                           echo""
-
-                           if [[ $option == *'Y'* ]]; then
-                           ./CRD_COLAB_EXE.sh
-                           fi
-                           if [[ $option == *'y'* ]]; then
-                           ./CRD_COLAB_EXE.sh
-                           fi
-			   echo -e " "
-			   echo " "     
-			   echo ""
-			   echo
-			   echo ""			   
-                           read -p $'\e[1;40m\e[31m[\e[32m*\e[31m]\e[32m Stop Server \e[1;91m (Y/N) : \e[0m' option
-                           echo""
-                           echo""
-                           echo""
-
-                           if [[ $option == *'y'* ]]; then
-                           clear
-                           vncserver -kill :1
-                           vncserver -kill :2
-                           exit
-                           fi
-                           if [[ $option == *'y'* ]]; then
-                           clear
-                           vncserver -kill :1
-                           vncserver -kill :2
-                           exit
-                           fi             
+                  
 			   
 
                    break;		  
