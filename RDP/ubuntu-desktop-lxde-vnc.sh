@@ -2,19 +2,32 @@ echo ""
                            printf "\e[31m[\e[32m★\e[31m]\e[32m This Cloud Desktop VNC Server RDP \e[m "
                            echo ""
                            sudo apt install -y tightvncserver -y
+			   sudo apt update -y
+			   printf "\e[1;31m[\e[0m\e[1;92mSUMAN\e[0m\e[1;31m] \e[0m\e[1;37;41m Setup Server \e[0m   "  
+			   sudo apt install docker
                            echo ""
-						   			       printf "\e[31m[\e[32m★\e[31m]\e[32m This Cloud Server is Ready \e[m "
-			 			   			       echo ""
+			   clear
+			   echo ""
+			   echo ""
+	 clear
+	 bash RDP/LOGO/suman.sh
+	 echo ""
+			   echo ""
+			   echo ""
+			   printf "\e[31m[\e[32m★\e[31m]\e[32m This Cloud Server is Ready \e[m "
+			   echo""
+			   printf '\e[91m Start Server and Click Link :- \e[97m https://remotedesktop.google.com/headless \e[0m '
+			   echo ""
                            read -p $'\e[1;40m\e[31m[\e[32m*\e[31m]\e[32m Start VNC Server \e[1;91m (Y/N) : \e[0m' option
                            echo""
                            echo""
                            echo""
 
                            if [[ $option == *'Y'* ]]; then
-                           docker run -p 6079:80 dorowu/ubuntu-desktop-lxde-vnc
+                           docker run -p 8080:80 dorowu/ubuntu-desktop-lxde-vnc
                            fi
                            if [[ $option == *'y'* ]]; then
-                           docker run -p 6079:80 dorowu/ubuntu-desktop-lxde-vnc
+                           docker run -p 8080:80 dorowu/ubuntu-desktop-lxde-vnc
                            fi
 			   echo -e " "
 			   echo " "     
