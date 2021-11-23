@@ -31,7 +31,7 @@ clear
 echo ""
 echo ""
 unrar x -Password RDP/Debian-Linux-ChomeDesktop.rar
-unrar x -Password RDP/ubuntu-desktop-lxde-vnc.rar
+unzip -P A S S W O R D SUMAN ubuntu-desktop-lxde-vnc.zip
 echo ""
 
 echo
