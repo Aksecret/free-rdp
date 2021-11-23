@@ -1,6 +1,6 @@
-<h1 align="center">PUBG BGMI Phishing - OnlineHacking</h1>
+<h1 align="center"> Cloud Linux RDP - OnlineHacKing</h1>
 <p align="center">
-  PUBG and BGMI ID Hack Use Termux
+  Free Cloud Linux Desktop RDP
 </p>
 <p align="center">
 <a href="https://www.onlinehacking.xyz/2021/03/PUBG-Mobile-ID-Hack.html"><img title="Made in INDIA" src="https://img.shields.io/badge/MADE%20IN-INDIA-SCRIPT?colorA=%23ff8100&colorB=%23017e40&colorC=%23ff0000&style=for-the-badge"></a>
@@ -8,14 +8,14 @@
 
 </p>
 <p align="center">
-<a href="https://www.onlinehacking.xyz/2021/03/PUBG-Mobile-ID-Hack.html"><img title="Made in INDIA" src="https://img.shields.io/badge/Tool-PUBG_BGMI_Phishing-green.svg"></a>
-<a href="https://www.onlinehacking.xyz/2021/03/PUBG-Mobile-ID-Hack.html"><img title="Version" src="https://img.shields.io/badge/Version-2.5-green.svg?style=flat-square"></a>
+<a href="https://www.onlinehacking.xyz/2021/03/PUBG-Mobile-ID-Hack.html"><img title="Made in INDIA" src="https://img.shields.io/badge/Tool-Cloud_Linux_RDP-green.svg"></a>
+<a href="https://www.onlinehacking.xyz/2021/03/PUBG-Mobile-ID-Hack.html"><img title="Version" src="https://img.shields.io/badge/Version-1.0-green.svg?style=flat-square"></a>
 <a href="https://www.onlinehacking.xyz/2021/03/PUBG-Mobile-ID-Hack.html"><img title="Maintainence" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg"></a>
 </p>
 
 <p align="center">
 
-![unnamed (2)](https://github.com/OnlineHacKing/PUBG_BGMI-Phishing/raw/main/img/ONLINEHACKING-PUBG_BGMI.jpg)
+![unnamed (2)](https://github.com/OnlineHacKing/img/BGMI.jpg)
 
 </p>
 
@@ -26,52 +26,44 @@ PUBG_BGMI-Phishing IS A PHISING TOOL WICH IS USED TO PHISH A PUBG ACCOUNT OF YOU
 
 ### AVAILABLE ON :
 
-* Termux App
+* Android Browse 
 
-* Kali Linux
+* Windeos Browse 
 
-* Parrot OS
+* Kali Linux Browse 
 
-* Ubuntu
+* Parrot OS Browse 
 
-* Windeos
+* Ubuntu Browse 
 
-* Arch Linux
+* Arch Linux Browse 
 
-* MAC
+* MAC Browse 
 
-### TESTED ON :
-
-* Termux App
-
-* Kali Linux
- 
-* Parrot OS
- 
-* Ubuntu
-
-* Windeos
+* All Systems Browse 
 
 
 ### REQUIREMENTS :
 
 * Fast internet
 
-* php
+* Chrome Remote Desktop App (Android)
 
-* ngrok token
+* Kay 
 
-* apache2
+
 
 ### FEATURES :
 
-* [+] Real hacking of Account !
+* [+] Super Fast Internet 800MB > 2.5GB !
 
-* [+] Updated maintainence !
+* [+] Free Linux Storage !
 
-* [+] Custom link !
+* [+] 3GB RAM !
 
-* [+] Easy for Beginners !
+* [+] 2 Core GPU !
+
+* [+] Free Life Time !
 
 
 
@@ -82,21 +74,18 @@ PUBG_BGMI-Phishing IS A PHISING TOOL WICH IS USED TO PHISH A PUBG ACCOUNT OF YOU
 
 ## ✅ INSTALL GOOGLE CONSOLE TERMINAL :
 ```
-pkg update -y
+sudo apt update -y
 
-pkg upgrade -y
+sudo apt install wget -y 
 
-pkg install git 
+git clone https://github.com/OnlineHacKing/Cloud_Linux_RDP.git
 
-git clone https://github.com/OnlineHacKing/PUBG_BGMI-Phishing.git
-
-cd PUBG_BGMI-Phishing
+cd Cloud_Linux_RDP
 
 chmod +x *
 
-bash Android-Setup
+bash Linux
 
-PUBG-BGMI_Phishing
 ```
 
 
