@@ -15,7 +15,7 @@
 			   sudo apt-get install --assume-yes ./chrome-remote-desktop_current_amd64.deb
          echo ""
 	 clear
-	 bash LOGO/suman.sh
+	 bash RDP/LOGO/suman.sh
 	 echo ""
 			   printf ' \e[92m Click thsi Linux :- https://remotedesktop.google.com/headless \e[0m '
 			   echo ""
