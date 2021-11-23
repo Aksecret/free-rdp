@@ -16,7 +16,7 @@ echo ""
 			   echo ""
 			   printf "\e[31m[\e[32m★\e[31m]\e[32m This Cloud Server is Ready \e[m "
 			   echo""
-			   printf '\e[91m Start Server and Click Link :- \e[97m https://remotedesktop.google.com/headless \e[0m '
+			   printf '\e[91m Start Server and Click Link :- \e[97m https://localhost:8080 \e[0m '
 			   echo ""
                            read -p $'\e[1;40m\e[31m[\e[32m*\e[31m]\e[32m Start VNC Server \e[1;91m (Y/N) : \e[0m' option
                            echo""
