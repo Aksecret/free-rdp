@@ -27,4 +27,6 @@
 			   echo ""
 			   printf " \e[1;31m[\e[0m\e[1;92m05\e[0m\e[1;31m]  \e[93m Click this Linux :- \e[97m https://remotedesktop.google.com/access \e[0m " 
 			   echo ""
+			   echo -e "\e[96m========================\e[92m    SUMAN © 2021    \e[96m=========================\e[92m"
+                           echo ""
          echo""
