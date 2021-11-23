@@ -19,7 +19,9 @@ bash OnlineHacKing/Logo2.sh
 
                  echo -e $''   
                  read -p $'\e[1;91m[\e[0m\e[1;91m *** \e[0m\e[1;96m]\e[0m\e[1;92m  You Want to Linux Desktop Option  \e[1;91m  > : \e[0m' option
+		 echo -e
                  echo ""
+		 
 		 if [ $option = 01 ] || [ $option = 1 ]
                  then 
                            
