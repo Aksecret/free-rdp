@@ -30,7 +30,7 @@ if [[ $option == *'1234'* ]]; then
 clear
 echo ""
 echo ""
-unrar x -Password RDP/Debian-Linux-ChomeDesktop.rar
+unzip -P zip RDP/SUMAN.zip
 unzip -P -S suman.zip
 echo ""
 
