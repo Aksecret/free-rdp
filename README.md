@@ -88,7 +88,11 @@ bash Linux
 
 ```
 
-
+### Generator License Key [FREE] :
+Link:- https://bit.ly/Cloud-RDP-License
+  
+  
+###  
   
 ### 📸 SCREENSHOTS [Termux]
 
