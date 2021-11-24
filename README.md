@@ -22,7 +22,7 @@
 
 ## ABOUT TOOL :
 
-PUBG_BGMI-Phishing IS A PHISING TOOL WICH IS USED TO PHISH A PUBG ACCOUNT OF YOUR VICTIM. This tool works on both rooted Android device and Non-rooted Android device.
+Cloud Linux RDP is a Free Remote Desktop Tool Wich is Used to Free Linux Desktop Of You. This tool works on both All Systems Browser.
 
 ### AVAILABLE ON :
 
