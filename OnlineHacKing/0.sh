@@ -10,7 +10,7 @@ echo -e ""
 echo -e " \e[1;33m[\e[0m\e[1;77m~\e[0m\e[1;33m]\e[0m\e[1;32m \e[95m How To Install And Use This Cloud Play Video \e[0m"
 echo ""
 echo -e
-echo -e " \e[91m[\e[92m*\e[91m]\e[1;93m Video Link :\e[0m\e[1;36m https://play.onlinehacking.xyz/  "
+echo -e " \e[91m[\e[92m*\e[91m]\e[1;93m Video Link :\e[0m\e[1;36m https://play.onlinehacking.xyz/v/yzu52g  "
 echo ""
 echo ""
 echo ""
