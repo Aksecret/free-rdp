@@ -99,10 +99,11 @@ Link:- https://bit.ly/Cloud-RDP-License
 <br>
 <p align="center">
 <img width="40%" src=""/>
+<img width="40%" src=""/>
 </p>
 <br>
 <p align="center">
-<img width="41%" src=""/>
+<img width="40%" src=""/>
 <img width="40%" src=""/>
 </p>
 
