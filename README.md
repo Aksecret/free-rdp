@@ -26,21 +26,21 @@ PUBG_BGMI-Phishing IS A PHISING TOOL WICH IS USED TO PHISH A PUBG ACCOUNT OF YOU
 
 ### AVAILABLE ON :
 
-* Android Browse 
+* Android Browser 
 
-* Windeos Browse 
+* Windeos Browser 
 
-* Kali Linux Browse 
+* Kali Linux Browser 
 
-* Parrot OS Browse 
+* Parrot OS Browser 
 
-* Ubuntu Browse 
+* Ubuntu Browser 
 
-* Arch Linux Browse 
+* Arch Linux Browser 
 
-* MAC Browse 
+* MAC Browser 
 
-* All Systems Browse 
+* All Systems Browser 
 
 
 ### REQUIREMENTS :
