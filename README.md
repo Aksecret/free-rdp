@@ -94,7 +94,7 @@ Link:- https://bit.ly/Cloud-RDP-License
   
 ###  
   
-### 📸 SCREENSHOTS [Termux]
+### 📸 SCREENSHOTS [Linux]
 
 <br>
 <p align="center">
