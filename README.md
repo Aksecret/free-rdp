@@ -98,13 +98,13 @@ Link:- https://bit.ly/Cloud-RDP-License
 
 <br>
 <p align="center">
-<img width="90%" src="https://github.com/OnlineHacKing/Cloud_Linux_RDP/raw/main/OnlineHacKing/1.jpg"/>
-<img width="90%" src="https://github.com/OnlineHacKing/Cloud_Linux_RDP/raw/main/OnlineHacKing/2.jpg"/>
+<img width="99%" src="https://github.com/OnlineHacKing/Cloud_Linux_RDP/raw/main/OnlineHacKing/1.jpg"/>
+<img width="99%" src="https://github.com/OnlineHacKing/Cloud_Linux_RDP/raw/main/OnlineHacKing/2.jpg"/>
 </p>
 <br>
 <p align="center">
-<img width="90%" src="https://github.com/OnlineHacKing/Cloud_Linux_RDP/raw/main/OnlineHacKing/3.jpg"/>
-<img width="90%" src="https://github.com/OnlineHacKing/Cloud_Linux_RDP/raw/main/OnlineHacKing/4.jpg"/>
+<img width="99%" src="https://github.com/OnlineHacKing/Cloud_Linux_RDP/raw/main/OnlineHacKing/3.jpg"/>
+<img width="99%" src="https://github.com/OnlineHacKing/Cloud_Linux_RDP/raw/main/OnlineHacKing/4.jpg"/>
 </p>
 
 
