@@ -57,7 +57,7 @@ bash OnlineHacKing/Logo2.sh
 	                          
                            echo ""
 			   clear
-			   bash RDP/ubuntu-desktop-lxde-vnc.sh
+			   bash RDP/kali-linux.sh
 			   echo ""
 			   exit
                            
