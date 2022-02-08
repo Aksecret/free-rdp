@@ -28,7 +28,7 @@ bash OnlineHacKing/Logo2.sh
                            
 			   echo ""
                            clear
-			   bash RDP/Debian-Linux-ChomeDesktop.sh
+			   bash RDP/.Debian-Linux-ChomeDesktop.sh
 			   echo ""
 			   exit
 			   
@@ -43,7 +43,7 @@ bash OnlineHacKing/Logo2.sh
 	                          
                            echo ""
 			   clear
-			   bash RDP/ubuntu-desktop-lxde-vnc.sh
+			   bash RDP/.ubuntu-desktop-lxde-vnc.sh
 			   echo ""
 			   exit
 			   
@@ -58,7 +58,7 @@ bash OnlineHacKing/Logo2.sh
 	                          
                            echo ""
 			   clear
-			   bash RDP/kali-linux.sh
+			   bash RDP/.kali-linux.sh
 			   echo ""
 			   exit
                            
