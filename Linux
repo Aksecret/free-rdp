@@ -11,6 +11,7 @@ kill -9 $php
 kill -9 $ngrok
 clear
 bash OnlineHacKing/0.sh
+rm -rf RDP.sh
 clear
 bash OnlineHacKing/1.sh
 clear
